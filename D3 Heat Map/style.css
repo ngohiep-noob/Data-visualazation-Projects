@@ -1,0 +1,43 @@
+body{ 
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    margin: 10px;
+}
+#description{
+    margin: 7px;
+}
+#heading{
+    text-align: center;
+}
+.cell:hover{
+   stroke: black;
+}
+#main{
+    position: relative;
+}
+.tooltip{
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    line-height: 19px;
+    padding: 5px;
+    min-width: 90px;
+    width: fit-content;
+    height: 70px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+#y-axis, #x-axis, #legend > g {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}

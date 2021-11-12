@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Merriweather', serif; 
+}
+svg{
+    background-color: whitesmoke;
+}
+.dot{
+    stroke: rgb(41, 41, 41);
+    opacity: 0.8;
+}
+#main{
+    position: relative;
+    
+}
+#tooltip{
+    cursor: default;
+    padding: 15px;
+    position: absolute;
+    min-width: 150px;
+    width: fit-content;
+    height: 50px;
+    line-height: 17px;
+    background-color: #dff9fb;
+    border-radius: 9px;
+    top: 0;
+    opacity: 0;
+}

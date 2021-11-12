@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.county:hover {
+  opacity: 0.8;
+}
+#title{
+  margin: 10px;
+  text-align: center;
+  font-size: 3.5rem;
+}
+#description{
+  text-align: center;
+  margin: 10px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#tooltip{
+  position: absolute; 
+  width: fit-content;
+  background-color: #feffd0;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  opacity: 0;
+}
+.states{
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+.tick > text{
+  font-family: 'Roboto', sans-serif;
+}
